@@ -5,3 +5,11 @@ with the oficial manual https://www.google.com/url?sa=t&source=web&rct=j&opi=899
 
 - error1: cant open the terminal becase is not configuret as United States
 https://askubuntu.com/questions/1435918/terminal-not-opening-on-ubuntu-22-04-on-virtual-box-7-0-0
+- error2: the name of the host need be zara
+
+### Comandos a seguir
+```bash
+$ curl https://get.docker.com | sudo bas
+$ sudo usermod -aG docker your-user
+```
+## Inicial una prueba
