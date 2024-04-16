@@ -7,9 +7,29 @@ with the oficial manual https://www.google.com/url?sa=t&source=web&rct=j&opi=899
 https://askubuntu.com/questions/1435918/terminal-not-opening-on-ubuntu-22-04-on-virtual-box-7-0-0
 - error2: the name of the host need be zara
 
-### Comandos a seguir
+### Add user for docker
+Instaación mediandte curl redirreción a bash
 ```bash
-$ curl https://get.docker.com | sudo bas
+$ curl https://get.docker.com | sudo bash
+```
+Usuario para poder tener acceso
+```bash
 $ sudo usermod -aG docker your-user
 ```
-## Inicial una prueba
+Una vez que lo tengamos reiniciamos la máquina
+```bash
+$ sudo usermod -aG docker your-user
+```
+## Run the docker
+Run the docker
+```bash
+docker run hello-world
+```
+Show registred comands
+```bash
+$ docker ps -a
+```
+Show images thata we have in the docker
+```bash
+$ docker images
+```
